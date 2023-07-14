@@ -1,0 +1,302 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    height: auto;
+    width: 98.5vw;
+    border:1px solid;
+}
+.navbar
+{
+    height: 15vh;
+    width:100%;
+    border:1px solid red;
+    position: relative;
+}
+.nav-img1 
+{
+    border: 1px solid;
+    margin-left: 18%;
+    margin-top: 2%;
+}
+.cart
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}
+.result
+{
+    height: 60vh;
+    width: 25vw;
+    border:1px solid gray;
+    background-color: white;
+    z-index: 5;
+    margin-left: -100%;
+    visibility: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 100%;
+    
+}
+.show-parent:hover .result
+{
+    visibility: visible;
+}
+.show-parent
+{
+    height: 40%;
+    width: 50px;
+    margin-left: 70%;
+    margin-top:  -3%;
+    position: relative;
+    
+}
+
+.text
+{
+    height: 10%;
+    width: 100%;
+    border: 1px solid;
+}
+.break
+{
+    width: 95%;
+}
+.outer
+{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+.im1
+{
+    height: 10vh;
+    width: 7vw;
+    border: 1px solid;   
+
+}
+.outer h3
+{
+    width: 55px;
+    height: 3vh;
+    margin-left:2%;
+}
+.outer h2
+{
+    margin-left: 5%;
+}
+.btn-cross
+{
+    border-radius:50% ;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+.clear
+{
+    height: 6vh;
+    width: 87%;
+    margin-left: 7%;
+    border-radius:5px;
+    margin-top: 20%;
+}
+.hero
+{
+    height: 70vh;
+    width: 100%;
+    background-image: url('./img/hero.jpg');
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 100%;
+}
+.hero1
+{
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;   
+    margin-top:5% ;
+}
+.hero1 input
+{
+    height: 8vh;
+    width: 70%;
+    border-radius: 5px;
+}
+.hero1 img
+{
+    margin-left: 63%;
+    margin-top: -11%;
+}
+.hero2
+{
+    
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows:100%;
+    background-image:linear-gradient(to top left ,purple,pink);
+}
+.box1
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.box1 img
+{
+    height: 7vh;
+}
+.online-course
+{
+    height: 300vh;
+    width: 100%;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 7% 93%;
+}
+.online1
+{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.parent
+{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: 22% 22% 22% 22%;
+    justify-content: space-evenly;
+    align-content:space-around ;
+    margin-left: 10%;
+}
+.beg1
+{
+    border: 1px solid gray;
+    height: 100%;
+    width: 100%;
+}
+.beg1 img
+{
+    height: 45%;
+    width: 100%;
+}
+.beg-div
+{
+    height: 53%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.beg-div img
+{
+    height: 3vh;
+    width: 25%;
+}
+.text
+{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    
+}
+.beg-div button
+{
+    background-color: skyblue;
+    height: 6vh;
+    width: 87%;
+    margin-left: 7%;
+    border-radius:5px;
+}
+.footer
+{
+    border: 1px solid gray;
+    height: 30vh;
+    width: 100%;
+}
+.foot-parent
+{
+    height: 100%;
+    width: 32.5%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+.foot1
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot2
+{
+    width: 20%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.data
+{
+    border: 3px solid red;
+    
+}
+.img1
+{
+    height: 25%;
+    width: 25%;
+}
+.data-h3
+{
+    margin-left: 28%;
+    margin-top: -14%;
+    font-size: 15px;
+}
+.data-h2
+{
+    margin-left: 80%;
+    margin-top: -7%;
+}
+
+.data-btn
+{
+    height: 3vh;
+    width: 5%;
+    background-color: red;
+    border-radius:40%;
+    position: relative;
+    left: 95%;
+    
+
+}
